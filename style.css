@@ -8,14 +8,14 @@ body{
     background-color: black;
 }
 .main{
-    height:115vh;
+    height:644px;
     background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/dd4dfce3-1a39-4b1a-8e19-b7242da17e68/86742114-c001-4800-a127-c9c89ca7bbe4/IN-en-20240527-popsignuptwoweeks-perspective_alpha_website_large.jpg");
     background-position: center center;
     background-size: cover;
-    position:relative;
+    position: relative;
 }
 .box{
-    height:115vh;
+    height:644px;
     width:100%;
     opacity: 0.69;
     position: absolute;
@@ -383,9 +383,6 @@ footer .questions{
         font-size:18px;
     }
 
-    .main, .box{
-        height:80vh;
-    }
     nav{
         max-width:90vw;
         display:flex;
@@ -514,9 +511,6 @@ footer .questions{
     .info> :nth-child(3){
         font-size:16px;
     }
-    .main, .box{
-        min-height:80vh;
-    }
 
     .info> :nth-child(1){
         font-size:32px;
@@ -590,11 +584,7 @@ section.first > div :nth-child(2){
 }
 
 
-@media only screen and (max-width:500px){
-
-    .main, .box{
-        height:75vh;
-    }
+@media only screen and (max-width:535px){
     .card{
         transform: scale(0.70);
             top: 205px;
@@ -621,7 +611,7 @@ section.first > div :nth-child(2){
         top: 40px;
     }
     .buttons12 input, .main input{
-        padding:12.4px 91px 13px 12px;
+        padding:12.4px 70px 13px 12px;
     }
     section.first > div :nth-child(1){
         font-size:30px;
