@@ -403,10 +403,10 @@ footer .questions{
     }
     .first{
         flex-wrap:wrap;
-        text-align:center;
     }
     .first-info{
         margin-bottom:0px;
+        text-align:center;
     }
     .sec-img img {
         width: 405px;
