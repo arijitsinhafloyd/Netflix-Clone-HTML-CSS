@@ -612,6 +612,7 @@ section.first > div :nth-child(2){
     }
     .buttons12 input, .main input{
         padding:12.4px 40px 13px 12px;
+        margin:auto;
     }
 
     .btn-red{
