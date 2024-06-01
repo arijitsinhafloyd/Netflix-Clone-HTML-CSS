@@ -611,7 +611,12 @@ section.first > div :nth-child(2){
         top: 40px;
     }
     .buttons12 input, .main input{
-        padding:12.4px 70px 13px 12px;
+        padding:12.4px 40px 13px 12px;
+    }
+
+    .btn-red{
+        padding: 8px 19px;
+        font-size:16px;
     }
     section.first > div :nth-child(1){
         font-size:30px;
